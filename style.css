@@ -1,3 +1,14 @@
+.parallax-viewport {
+    position: relative;     /* relative, absolute, fixed */
+    margin: auto;
+    overflow: hidden;
+    width: 900px;
+    height:300px;
+}
+.parallax-layer {
+    position: absolute;
+}
+
 body{
   font-family: 'IM Fell English', serif;
   background-color: #282929;

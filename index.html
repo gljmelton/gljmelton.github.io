@@ -2,8 +2,10 @@
 <html>
   <head>
     <title>IndieGage Games</title>
+
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+English:400,400i" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+
   </head>
   <body>
     <div class='main-title'>
@@ -17,6 +19,9 @@
         </div>
       </div>
     </div>
+
+    </div>
+
 
     <h1 id='games'>Games</h1>
 
@@ -59,9 +64,20 @@
   <div id='connect' class = 'text-content'><p>Email: <a href = 'mailto:indiegagegames@gmail.com'>indiegagegames@gmail.com</a><br/>
                               Twitter: <a href = 'https://twitter.com/indiegage' target='_blank'>@IndieGage</a><br/>
                               Medium: <a href = 'https://medium.com/@indiegage' target='_blank'>@IndieGage</a><br/>
-                              </p></div>
+                              Interested in hiring me? <a href="Melton-Gage-Resume.pdf" download>Download my resume!</a><br/></p></div>
   <hr>
   <footer>Copyright 2015 - End of Time, Gage Melton. All rights reserved.</footer>
+
+  <script src="jquery-1.7.2.js"></script>
+  <script src="jparallax-master/js/jquery.parallax.js"></script>
+  <script>
+  jQuery(document).ready(function(){
+    jQuery('#parallax .parallax-layer')
+    .parallax({
+      mouseport: jQuery('#parallax')
+    });
+  });
+  </script>
 
   </body>
 </html>
