@@ -95,3 +95,13 @@ footer{
   margin: auto;
   float: right;
 }
+
+#jan-rain-content{
+    margin: auto;
+    float: left;
+}
+
+#jan-rain-shot{
+    margin:auto;
+    float:right;
+}
