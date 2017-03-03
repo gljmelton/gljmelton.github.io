@@ -76,32 +76,22 @@ footer{
   margin: 2em auto;
 }
 
-#nongon-shot{
-  margin: auto;
-  float: right;
+#left-content{
+    margin:auto;
+    float:right;
 }
 
-#nongon-content{
-  margin: auto;
-  float: left;
+#left-shot{
+    margin:auto;
+    float:left;
 }
 
-#aguars-shot{
-  margin: auto;
-  float: left;
+#right-content{
+    margin:auto;
+    float:left;
 }
 
-#aguars-content{
-  margin: auto;
-  float: right;
-}
-
-#jan-rain-content{
-    margin: auto;
-    float: left;
-}
-
-#jan-rain-shot{
+#right-shot{
     margin:auto;
     float:right;
 }
