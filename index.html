@@ -1,96 +1,86 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>IndieGage Games</title>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta description="Home page for Game Melton"
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English:400,400i" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-  </head>
-  <body>
-    <div class='main-title'>
-      IndieGage<br>
-      <div class='subtitle'><i>Games by Gage Melton</i><br/>
-        <div class = 'nav'>
-          <a href = '#games'>Games</a>
-          <a href = '#about'>About</a>
-          <a href = '#connect'>Connect</a>
-          <a href = 'https://gljmelton.myportfolio.com/'>Portfolio</a>
-        </div>
-      </div>
-    </div>
-
-    </div>
+  <!-- Custom font -->
+  <link rel="stylesheet" href="https://use.typekit.net/zuv4ejr.css">
 
 
-    <h1 id='games'>Games</h1>
+  <link href="CustomStyle.css" rel="stylesheet" type="text/css" />
 
-      <div class='game'>
-          <div class="shot" id="jan-rain-shot"><img src="img/jan-rainShot.png" style="width:480px;height:270px;"></div>
-          <div id="jan-rain-content">
-              <div class="title" id="jan-rain">Rain in the Month of January</div>
-              <div class="status"><i>Published Jan. 22, 2017</i></div>
-              <div class="desc">Take a walk in the rain. Created in 48 hours for Global Game Jam '17</div>
-              <div class="links"><a href="https://indiegage.itch.io/rain-in-the-month-of-january" target="_blank">Get it now on itch.io</a></div>
-          </div>
-      </div>
+  <title>IndieGage</title>
 
-    <div class='game'>
-      <div class='shot' id="aguars-shot"><img src= 'img/aguarsShot.png' style="width:480px;height:270px;"></div>
-      <div id='aguars-content'>
-        <div class='title' id="aguars">A Garden Under A Red Sun</div>
-        <div class='status'><i>Published Sept. 1, 2016</i></div>
-        <div class='desc'>Explore a colorful garden under a red sun. Made in 2 days for a weekly design challenge.</div>
-        <div class='links'><a href="https://indiegage.itch.io/a-garden-under-a-red-sun" target='_blank'>Get it now on itch.io</a></div>
-      </div>
-    </div>
 
-    <div class='game'>
-      <div class='shot' id="nongon-shot"><img src= 'img/nongonShot.png' style="width:480px;height:270px;"></div>
-      <div id='nongon-content'>
-        <div class='title' id="nongon">Nongon</div>
-        <div class='status'><i>In Development</i></div>
-        <div class='desc'>A first person procedurally generated parkour platformer.<br/><br/>
-          The Simulation collapsed. Unknown beings created a simulation of the Universe, known only as The Simlation.
-          The Director was created to manage the operation of The Simulation. Eventually The Simulation grew too large. As its final action
-          The Director froze The Simulation and created you, The Divulgant, to traverse the Nongons. Your sole purpose to collect data on how,
-          and why, The Simulation collapsed.</div>
-        <div class='links'>
-          <a href = 'https://indiegage.itch.io/nongon'>Get the alpha on itch.io</a><br/>
-          <a href = 'https://indiegamestand.com/free-games/3056/nongon/'> Or on indiegamestand.com</a><br/>
-          <a href = 'https://www.facebook.com/nongongame/'>Like it on facebook</a><br/>
-      </div>
+</head>
+<body>
+  <!-- UNDER CONSTRUCTION -->
+  <div class="alert alert-danger" role="alert">
+  This website is under construction. Most things don't work yet, but feel free to look around!<br />
+  Contact me at gagemelton@indiegage.com if you wanna talk.
+</div>
+
+  <!-- HEADER SECTION -->
+  <div class="jumbotron jumbotron-fluid position-relative parallax text-white" id="header">
+    <div class="text-center align-center">
+      <h1 class="w-sm-100 w-lg-40">I'm Gage</h1>
+      <h2>
+        i make things
+      </h2>
     </div>
   </div>
 
-    
-  <hr>
-  <h1>About</h1>
-  <div id='about-desc' class = 'text-content'><p>I'm a student at Bradley University studying interactive media with a concentration in game design.
-      I'm trying to make my mark as a solo indie developer. I love learning and the challenges that come with making a
-      game on my own. I focus on minimal and low poly design, aiming for unique visual styles, and unique narrative elements.<br/><br/>
-      I draw a lot of my inspiration from science fiction as well as the works of H.P. Lovecraft, and enjoy blending elements from
-      multiple sources to create unique works.</p>
+  <!-- STICKY NAV SECTION -->
+  <ul class="nav justify-content-center flex-column flex-sm-row">
+    <li class="nav-item">
+      <a class="nav-link" href="https://indiegage.itch.io/">Games</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://gljmelton.myportfolio.com/">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="OldSite/oldSite.html">Old Site</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="OldSite/Gage-Melton-Resume.pdf">Resume</a>
+    </li>
+  </ul>
+
+  <!-- PROJECTS SECTION -->
+  <div class="row parallax" id="projects"> <!-- CHANGE THIS ID ONCE I HAVE A NEW PIC FOR BG -->
+      <div class="col-xs-6 col-md-4 project">
+        <a href="https://www.starcatsgame.com/" target="_blank">
+          <img src="MainMenu.png" alt="starcats image here" class="project-image img-responsive img-fluid" />
+          <h3 class="project-title short-name">Starcats</h3>
+        </a>
+      </div>
+      <div class="col-xs-6 col-md-4 project">
+        <img src="MainMenu.png" alt="starcats image here" class="project-image img-responsive img-fluid" />
+        <h3 class="project-title short-name">Color Cannons+</h3>
+      </div>
+      <div class="col-xs-6 col-md-4 project">
+        <a href="https://indiegage.itch.io/a-garden-under-a-red-sun" target="_blank">
+          <img src="aguars.jpg" alt="starcats image here" class="project-image img-responsive img-fluid">
+          <h3 class="project-title long-name">A Garden Under a Red Sun</h3>
+        </a>
+      </div>
+      <div class="col-xs-6 col-md-4 project">
+        <a href="https://indiegage.itch.io/rain-in-the-month-of-january" target="_blank">
+          <img src="RITMoJ.jpg" alt="starcats image here" class="project-image img-responsive img-fluid"/>
+          <h3 class="project-title long-name">Rain In the Month of January</h3>
+        </a>
+      </div>
   </div>
-  <hr>
-  <h1>Connect</h1>
-  <div id='connect' class = 'text-content'><p>Email: <a href = 'mailto:gagemelton@indiegage.com'>gagemelton@indiegage.com</a><br/>
-                              Twitter: <a href = 'https://twitter.com/indiegage' target='_blank'>@IndieGage</a><br/>
-                              Medium: <a href = 'https://medium.com/@indiegage' target='_blank'>@IndieGage</a><br/>
-                              Interested in hiring me? <a href="Melton-Gage-Resume.pdf" download>Download my resume!</a><br/></p></div>
-  <hr>
-  <footer>Copyright 2015 - End of Time, Gage Melton. All rights reserved.</footer>
 
-  <script src="jquery-1.7.2.js"></script>
-  <script src="jparallax-master/js/jquery.parallax.js"></script>
-  <script>
-  jQuery(document).ready(function(){
-    jQuery('#parallax .parallax-layer')
-    .parallax({
-      mouseport: jQuery('#parallax')
-    });
-  });
-  </script>
+  <img src="aguars.jpg" class="image-responsive img-fluid"/>
 
-  </body>
+  <!-- Bootstrap javascript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
