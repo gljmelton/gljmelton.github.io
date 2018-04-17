@@ -24,15 +24,7 @@
   padding: 12em 0em;
 }
 
-/* TEMPORARY */
-#big-foot{
-  background-image: url(aguars.jpg);
-  margin: 100%;
-}
-
 /* HEADER SECTION */
-
-
 #header{
   background-image: url(header-bg.jpg);
 }
@@ -88,7 +80,7 @@ a:hover{
 
 /* PROJECTS SECTION */
 #projects{
-  background-image: url(RITMoJ.jpg);
+  background-image: url(RITMoJ-big.jpg);
 }
 
 h3{
