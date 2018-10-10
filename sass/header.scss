@@ -1,0 +1,52 @@
+.header{
+  background-image: linear-gradient(
+  to right bottom,
+  rgba($secondary-blue, 0.95),
+  rgba($tertiary-blue, 0.15)),
+  url(../images/header.jpg);
+
+  background-size: cover;
+  background-position: top;
+
+  &-content{
+    padding: 2rem;
+
+    .nav{
+      margin-top: 10rem;
+      font-weight: 300;
+      .nav-item{
+        margin-bottom:1rem;
+        .nav-link{
+          display: inline;
+
+          color:$main-red;
+          border-bottom: 1px solid $main-red;
+          font-size: 3rem;
+          text-decoration: none;
+          transition: 0.25s;
+          &:hover{
+            padding: 1rem;
+            color: $main-blue;
+            background-color: $main-red;
+          }
+        }
+      }
+    }
+
+
+    .name{
+      padding-top: 4rem;
+
+      font-weight: 900;
+      line-height: 0.8;
+      .first{
+        font-size: 10rem;
+        letter-spacing: -0.1rem;
+      }
+      .last{
+        font-size: 6.7rem;
+        letter-spacing: -0.02rem;
+      }
+    }
+  }
+}

@@ -32,6 +32,7 @@ body{
 @media (min-width: $break-up-md) {
   body{
     margin: 3rem;
+
   }
 }
 
@@ -57,7 +58,7 @@ rgba($tertiary-blue, 0.15)),
 
     &-link{
       display: inline;
-      padding:0.25rem;
+
       color:$main-red;
       border-bottom: 1px solid $main-red;
       font-size: 3rem;
@@ -75,7 +76,7 @@ rgba($tertiary-blue, 0.15)),
 
   &-content{
     //position: absolute;
-    padding-left:10%;
+
     // left: 20%;
     // transform: translate(-50%, -50%);
     text-align: left;

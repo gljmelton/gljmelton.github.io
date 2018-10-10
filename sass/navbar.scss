@@ -1,6 +1,6 @@
 .navbar{
-
   background-color: $main-blue;
+  padding-left: 1rem;
   &-brand{
     img{
       width:50px;
@@ -15,13 +15,12 @@
         padding: 0 3rem;
         &:last-child{
           border: 0;
-          
+
         }
 
         .nav-link{
           color: $main-red;
           font-size: 2rem;
-
 
 
         }

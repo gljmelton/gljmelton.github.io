@@ -1,14 +1,8 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after,
+a, a:link, a:hover, a:visited {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-}
-
-.nav, .nav-item, .nav-link {
-  margin: 0;
-  padding: 0;
 }
 
 html {
@@ -30,65 +24,50 @@ body {
   }
 }
 .header {
-  height: 75vh;
   background-image: linear-gradient(to right bottom, rgba(53, 52, 73, 0.95), rgba(66, 84, 107, 0.15)), url(../images/header.jpg);
   background-size: cover;
   background-position: top;
-  position: relative;
 }
-.header-nav {
-  padding-top: 10rem;
+.header-content {
+  padding: 2rem;
+}
+.header-content .nav {
+  margin-top: 10rem;
   font-weight: 300;
 }
-.header-nav-item {
+.header-content .nav .nav-item {
   margin-bottom: 1rem;
 }
-.header-nav-link {
+.header-content .nav .nav-item .nav-link {
   display: inline;
-  padding: 0.25rem;
   color: #ff2b58;
   border-bottom: 1px solid #ff2b58;
   font-size: 3rem;
   text-decoration: none;
   transition: 0.25s;
 }
-.header-nav-link:hover {
+.header-content .nav .nav-item .nav-link:hover {
+  padding: 1rem;
   color: #26222d;
   background-color: #ff2b58;
 }
-.header-content {
-  padding-left: 10%;
-  text-align: left;
-  display: block;
-}
-.header-desc {
-  display: block;
-}
-.header-text {
+.header-content .name {
+  padding-top: 4rem;
   font-weight: 900;
   line-height: 0.8;
 }
-.header-upper {
-  display: block;
+.header-content .name .first {
   font-size: 10rem;
   letter-spacing: -0.1rem;
 }
-.header-lower {
-  display: block;
+.header-content .name .last {
   font-size: 6.7rem;
   letter-spacing: -0.02rem;
 }
 
-.link-games {
-  letter-spacing: 3rem;
-}
-.link-photo {
-  letter-spacing: 0.25rem;
-  margin-right: -0.25rem;
-}
-
 .navbar {
   background-color: #26222d;
+  padding-left: 1rem;
 }
 .navbar-brand img {
   width: 50px;
@@ -107,7 +86,6 @@ body {
 }
 
 .games {
-  padding: 10%;
   background-image: linear-gradient(to right bottom, rgba(38, 34, 45, 0.95), rgba(53, 52, 73, 0.95)), url(../images/games.jpg);
   background-size: cover;
   background-position: top;
