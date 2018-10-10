@@ -20,11 +20,15 @@ body {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  margin: 3vh;
   background-color: #26222d;
   color: #ff2b58;
 }
 
+@media (min-width: 576px) {
+  body {
+    margin: 3rem;
+  }
+}
 .header {
   height: 75vh;
   background-image: linear-gradient(to right bottom, rgba(53, 52, 73, 0.95), rgba(66, 84, 107, 0.15)), url(../images/header.jpg);
@@ -88,9 +92,17 @@ body {
 }
 .navbar-brand img {
   width: 50px;
+  height: auto;
+}
+.navbar-collapse .navbar-nav .nav-item {
+  border-right: 1px solid #ff2b58;
+}
+.navbar-collapse .navbar-nav .nav-item:last-child {
+  border: 0;
 }
 .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #ff2b58;
+  font-size: 2rem;
 }
 
 .games h2 {
