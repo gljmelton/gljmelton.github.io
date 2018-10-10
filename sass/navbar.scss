@@ -12,9 +12,10 @@
     .navbar-nav{
       .nav-item{
         border-right: 1px solid $main-red;
-
+        padding: 0 3rem;
         &:last-child{
           border: 0;
+          
         }
 
         .nav-link{

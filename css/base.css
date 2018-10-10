@@ -24,7 +24,7 @@ body {
   color: #ff2b58;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   body {
     margin: 3rem;
   }
@@ -96,6 +96,7 @@ body {
 }
 .navbar-collapse .navbar-nav .nav-item {
   border-right: 1px solid #ff2b58;
+  padding: 0 3rem;
 }
 .navbar-collapse .navbar-nav .nav-item:last-child {
   border: 0;
@@ -105,6 +106,12 @@ body {
   font-size: 2rem;
 }
 
+.games {
+  padding: 10%;
+  background-image: linear-gradient(to right bottom, rgba(38, 34, 45, 0.95), rgba(53, 52, 73, 0.95)), url(../images/games.jpg);
+  background-size: cover;
+  background-position: top;
+}
 .games h2 {
   font-weight: 900;
 }
