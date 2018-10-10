@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.nav, .nav-item, .nav-link {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #fffcf5;
+  font-size: 10px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 3vh;
+  background-color: #26222d;
+  color: #ff2b58;
+}
+
+.header {
+  height: 75vh;
+  background-image: linear-gradient(to right bottom, rgba(53, 52, 73, 0.95), rgba(66, 84, 107, 0.15)), url(../images/header.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.header-nav {
+  padding-top: 10rem;
+  font-weight: 300;
+}
+.header-nav-item {
+  margin-bottom: 1rem;
+}
+.header-nav-link {
+  display: inline;
+  padding: 0.25rem;
+  color: #ff2b58;
+  border-bottom: 1px solid #ff2b58;
+  font-size: 3rem;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.header-nav-link:hover {
+  color: #26222d;
+  background-color: #ff2b58;
+}
+.header-content {
+  padding-left: 10%;
+  text-align: left;
+  display: block;
+}
+.header-desc {
+  display: block;
+}
+.header-text {
+  font-weight: 900;
+  line-height: 0.8;
+}
+.header-upper {
+  display: block;
+  font-size: 10rem;
+  letter-spacing: -0.1rem;
+}
+.header-lower {
+  display: block;
+  font-size: 6.7rem;
+  letter-spacing: -0.02rem;
+}
+
+.link-games {
+  letter-spacing: 3rem;
+}
+.link-photo {
+  letter-spacing: 0.25rem;
+  margin-right: -0.25rem;
+}
+
+.navbar {
+  background-color: #26222d;
+}
+.navbar-brand img {
+  width: 50px;
+}
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: #ff2b58;
+}
+
+.games h2 {
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,20 @@
+.navbar{
+
+  background-color: $main-blue;
+  &-brand{
+    img{
+      width:50px;
+    }
+  }
+
+  &-collapse{
+    .navbar-nav{
+      .nav-item{
+
+        .nav-link{
+          color: $main-red;
+        }
+      }
+    }
+  }
+}

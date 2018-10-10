@@ -1,101 +1,76 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta description="Home page for Game Melton"
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Custom font -->
-  <link rel="stylesheet" href="https://use.typekit.net/zuv4ejr.css">
+  <title>Gage Melton</title>
 
-
-  <link href="CustomStyle.css" rel="stylesheet" type="text/css" />
-
-  <title>IndieGage</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/base.css" />
 </head>
 <body>
-  <!-- UNDER CONSTRUCTION -->
-  <div class="alert alert-danger" role="alert">
-  This website is under construction. Most things don't work yet, but feel free to look around!<br />
-  Contact me at gagemelton@indiegage.com if you wanna talk.
-</div>
-
-  <!-- HEADER SECTION -->
-  <div class="jumbotron jumbotron-fluid position-relative parallax text-white" id="header">
-    <div class="text-center align-center">
-      <h1 class="w-sm-100 w-lg-40">I'm Gage</h1>
-      <h2>
-        i make things
-      </h2>
+  <!-- MAIN HEAD -->
+  <header class="header">
+    <div class="row">
+      <div class="header-content col-xl-12">
+        <ul class="nav flex-column header-nav">
+          <li class="nav-item header-nav-item">
+            <a href="#" class="nav-link header-nav-link">GAMES</a>
+          </li>
+          <li class="nav-item header-nav-item">
+            <a href="#" class="nav-link header-nav-link">PHOTOGRAPHY</a>
+          </li>
+          <li class="nav-item header-nav-item">
+            <a href="#" class="nav-link header-nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item header-nav-item">
+            <a href="#" class="nav-link header-nav-link">CONTACT</a>
+          </li>
+        </ul>
+        <h1 class="header-text">
+          <span class="header-upper">GAGE</span>
+          <span class="header-lower">MELTON</span>
+        </h1>
+      </div>
     </div>
+  </header>
+
+  <!-- STICKY NAV -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <a class="navbar-brand" href="#"><img src="images/brand.png" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">GAMES<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PHOTOGRAPHY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT ME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- GAMES COTENT -->
+  <div class="games">
+    <h2>GAMES</h2>
   </div>
 
-  <!-- STICKY NAV SECTION -->
-  <ul class="nav justify-content-center flex-column flex-sm-row">
-    <li class="nav-item">
-      <a class="nav-link" href="https://indiegage.itch.io/">Games</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="https://gljmelton.myportfolio.com/">Portfolio</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="OldSite/oldSite.html">Old Site</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="OldSite/Gage-Melton-Resume.pdf">Resume</a>
-    </li>
-  </ul>
-
-  <!-- PROJECTS SECTION -->
-  <div class="row parallax" id="projects"> <!-- CHANGE THIS ID ONCE I HAVE A NEW PIC FOR BG -->
-      <div class="col-xs-6 col-md-4 col-xl-3 project">
-        <a href="https://www.starcatsgame.com/" target="_blank">
-          <img src="MainMenu.jpg" alt="Starcats landscape image" class="project-image img-responsive img-fluid" />
-          <h3 class="project-title short-name">Starcats</h3>
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-4 col-xl-3 project">
-        <img src="color-cannons.jpg" alt="Color Cannons particle background" class="project-image img-responsive img-fluid" />
-        <h3 class="project-title short-name">Color Cannons+</h3>
-      </div>
-      <div class="col-xs-6 col-md-4 col-xl-3 project">
-        <a href="https://indiegage.itch.io/a-garden-under-a-red-sun" target="_blank">
-          <img src="aguars.jpg" alt="A Garden Under A Red Sun landscape" class="project-image img-responsive img-fluid">
-          <h3 class="project-title long-name">A Garden Under a Red Sun</h3>
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-4 col-xl-3 project">
-        <a href="https://indiegage.itch.io/rain-in-the-month-of-january" target="_blank">
-          <img src="RITMoJ.jpg" alt="Rain in the Month of January campfire image" class="project-image img-responsive img-fluid"/>
-          <h3 class="project-title long-name">Rain in the Month of January</h3>
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-4 col-xl-3 project">
-        <a href="https://itch.io/c/305067/indiegages-bitsy-games" target="_blank">
-          <img src="bitsy.jpg" alt="Bitsy games image" class="project-image img-responsive img-fluid"/>
-          <h3 class="project-title short-name">Bitsy Games</h3>
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-4 col-xl-3 project">
-        <a href="https://indiegage.itch.io/nongon" target="_blank">
-          <img src="nongon.jpg" alt="Nongon image" class="project-image img-responsive img-fluid"/>
-          <h3 class="project-title short-name">Nongon</h3>
-        </a>
-      </div>
-  </div>
-
-  <div class="jumbotron jumbotron-fluid position-relative parallax" id="footer">
-
-  </div>
-  <!--<img src="aguars-big.jpg" class="parallax img-fluid" id="footer"/>-->
-
-  <!-- Bootstrap javascript -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
