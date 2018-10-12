@@ -1,0 +1,28 @@
+.games{
+  margin: 0;
+  padding: 0;
+
+  background-image: linear-gradient(
+  to right bottom,
+rgba($main-blue, 0.95),
+rgba($secondary-blue, 0.95)),
+   url(../images/games.jpg);
+
+  background-size: cover;
+  background-position: top;
+  &-content{
+    padding:2rem;
+
+    &-list{
+      .game{
+        text-align: center;
+        padding:2rem;
+      }
+    }
+
+  }
+  h2{
+    font-size:8rem;
+    font-weight: 900;
+  }
+}

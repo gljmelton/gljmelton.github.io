@@ -27,6 +27,7 @@ body {
   background-image: linear-gradient(to right bottom, rgba(53, 52, 73, 0.95), rgba(66, 84, 107, 0.15)), url(../images/header.jpg);
   background-size: cover;
   background-position: top;
+  text-align: left;
 }
 .header-content {
   padding: 2rem;
@@ -53,6 +54,7 @@ body {
 }
 .header-content .name {
   padding-top: 4rem;
+  margin-left: -0.5rem;
   font-weight: 900;
   line-height: 0.8;
 }
@@ -65,9 +67,14 @@ body {
   letter-spacing: -0.02rem;
 }
 
+.nav-body {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
+  padding: 2rem;
   background-color: #26222d;
-  padding-left: 1rem;
 }
 .navbar-brand img {
   width: 50px;
@@ -86,11 +93,21 @@ body {
 }
 
 .games {
+  margin: 0;
+  padding: 0;
   background-image: linear-gradient(to right bottom, rgba(38, 34, 45, 0.95), rgba(53, 52, 73, 0.95)), url(../images/games.jpg);
   background-size: cover;
   background-position: top;
 }
+.games-content {
+  padding: 2rem;
+}
+.games-content-list .game {
+  text-align: center;
+  padding: 2rem;
+}
 .games h2 {
+  font-size: 8rem;
   font-weight: 900;
 }
 
