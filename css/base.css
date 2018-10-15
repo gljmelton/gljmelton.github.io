@@ -24,8 +24,8 @@ body {
 }
 
 header {
-  padding-left: 10%;
-  padding-top: 20%;
+  padding-left: 10vw;
+  padding-top: 20vh;
 }
 header .name {
   padding-top: 4rem;
