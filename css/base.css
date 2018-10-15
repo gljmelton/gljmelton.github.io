@@ -6,6 +6,11 @@ h1, h2, h3, h4, .row, .col {
   box-sizing: inherit;
 }
 
+h1 {
+  font-weight: 900;
+  line-height: 0.85;
+}
+
 html {
   background-color: #fffcf5;
   font-size: 10px;
@@ -18,7 +23,7 @@ body {
   height: 100vh;
   background-color: #26222d;
   color: #ff2b58;
-  background-image: linear-gradient(to right bottom, rgba(53, 52, 73, 0.95), rgba(66, 84, 107, 0.15)), url(../images/header.jpg);
+  background-image: linear-gradient(to right bottom, rgba(53, 52, 73, 0.95), rgba(66, 84, 107, 0.15)), url(../images/header5.jpg);
   background-size: cover;
   background-position: top;
 }
@@ -28,18 +33,43 @@ header {
   padding-top: 20vh;
 }
 header .name {
-  padding-top: 4rem;
+  padding-bottom: 1rem;
   margin-left: -0.5rem;
   font-weight: 900;
   line-height: 0.8;
 }
-header .name .first {
+header .name .first h1 {
   font-size: 10rem;
   letter-spacing: -0.1rem;
 }
-header .name .last {
+header .name .last h1 {
   font-size: 6.7rem;
   letter-spacing: -0.02rem;
+}
+header .description {
+  position: relative;
+  display: inline-block;
+  padding: 1rem;
+  font-weight: 300;
+  font-size: 2rem;
+  background-color: #26222d;
+}
+header .links {
+  font-size: 3rem;
+}
+header .links .link {
+  padding-top: 1rem;
+}
+header .links .link a {
+  transition: 0.25s;
+  text-decoration: none;
+  color: #ff2b58;
+  border-bottom: 1px solid #ff2b58;
+}
+header .links .link a:hover {
+  background-color: #ff2b58;
+  color: #26222d;
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=base.css.map */
