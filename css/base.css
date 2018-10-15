@@ -1,6 +1,6 @@
 *, *::before, *::after,
 a, a:link, a:hover, a:visited p,
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .row, .col {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -17,6 +17,9 @@ body {
   font-weight: 400;
   background-color: #26222d;
   color: #ff2b58;
+  background-image: linear-gradient(to right bottom, rgba(53, 52, 73, 0.95), rgba(66, 84, 107, 0.15)), url(../images/header.jpg);
+  background-size: cover;
+  background-position: top;
 }
 
 @media (min-width: 768px) {
@@ -24,144 +27,24 @@ body {
     margin: 3rem;
   }
 }
-.header {
-  background-image: linear-gradient(to right bottom, rgba(53, 52, 73, 0.95), rgba(66, 84, 107, 0.15)), url(../images/header.jpg);
-  background-size: cover;
-  background-position: top;
-  text-align: left;
+header {
+  position: absolute;
+  top: 20%;
+  left: 20%;
 }
-.header-content {
-  padding: 2rem;
-}
-.header-content .nav {
-  margin-top: 10rem;
-  font-weight: 300;
-}
-.header-content .nav .nav-item {
-  margin-bottom: 1rem;
-}
-.header-content .nav .nav-item .nav-link {
-  display: inline;
-  color: #ff2b58;
-  border-bottom: 1px solid #ff2b58;
-  font-size: 3rem;
-  text-decoration: none;
-  transition: 0.25s;
-}
-.header-content .nav .nav-item .nav-link:hover {
-  padding: 1rem;
-  color: #26222d;
-  background-color: #ff2b58;
-}
-.header-content .name {
+header .name {
   padding-top: 4rem;
   margin-left: -0.5rem;
   font-weight: 900;
   line-height: 0.8;
 }
-.header-content .name .first {
+header .name .first {
   font-size: 10rem;
   letter-spacing: -0.1rem;
 }
-.header-content .name .last {
+header .name .last {
   font-size: 6.7rem;
   letter-spacing: -0.02rem;
-}
-
-.nav-body {
-  margin: 0;
-  padding: 0;
-}
-
-.navbar {
-  padding: 2rem;
-  background-color: #26222d;
-}
-.navbar-brand img {
-  width: 50px;
-  height: auto;
-}
-.navbar-collapse .navbar-nav .nav-item {
-  border-right: 1px solid #ff2b58;
-  padding: 0 3rem;
-}
-.navbar-collapse .navbar-nav .nav-item:last-child {
-  border: 0;
-}
-.navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: #ff2b58;
-  font-size: 2rem;
-}
-
-.games {
-  margin: 0;
-  padding: 0;
-  background-image: linear-gradient(to right bottom, rgba(38, 34, 45, 0.95), rgba(53, 52, 73, 0.95)), url(../images/games.jpg);
-  background-size: cover;
-  background-position: top;
-}
-.games-content {
-  padding: 2rem;
-}
-.games-content-list .game {
-  border: none;
-  height: 12rem;
-  text-align: center;
-  padding: 1rem;
-  transition: 0.25s;
-}
-.games-content-list .game::before {
-  content: "";
-  position: absolute;
-  background-image: linear-gradient(to right bottom, rgba(38, 34, 45, 0.25), rgba(53, 52, 73, 0.1)), url("../images/end_transmission.jpg");
-  background-size: cover;
-  background-position: center;
-  background-clip: content-box;
-  padding: inherit;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  filter: grayscale(100%);
-}
-.games-content-list .game h3 {
-  filter: none;
-  color: #ff2b58;
-  transition: inherit;
-  display: inline-block;
-  font-weight: 300;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.games-content-list .game h3::after {
-  transition: inherit;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #26222d;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-.games-content-list .game:hover::before {
-  filter: grayscale(0%);
-  background-image: linear-gradient(to right bottom, rgba(38, 34, 45, 0.65), rgba(53, 52, 73, 0.45)), url("../images/end_transmission.jpg");
-}
-.games-content-list .game:hover h3 {
-  top: 45%;
-  left: 48%;
-}
-.games-content-list .game:hover h3::after {
-  transform: translate(-40%, -20%);
-}
-
-h2 {
-  font-size: 6rem;
-  font-weight: 900;
 }
 
 /*# sourceMappingURL=base.css.map */

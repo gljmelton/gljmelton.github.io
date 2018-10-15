@@ -1,6 +1,6 @@
 *, *::before, *::after,
 a, a:link, a:hover, a:visited
-p, h1, h2, h3, h4{
+p, h1, h2, h3, h4, .row, .col{
   margin: 0;
   padding: 0;
   box-sizing: inherit;
@@ -22,11 +22,39 @@ body{
   background-color: $main-blue;
   color: $main-red;
 
+  background-image: linear-gradient(
+  to right bottom,
+  rgba($secondary-blue, 0.95),
+  rgba($tertiary-blue, 0.15)),
+  url(../images/header.jpg);
+
+  background-size: cover;
+  background-position: top;
 }
 
 @media (min-width: $break-up-md) {
   body{
     margin: 3rem;
 
+  }
+}
+
+header{
+  position: absolute;
+  top:20%;
+  left:20%;
+  .name{
+    padding-top: 4rem;
+    margin-left:-0.5rem;
+    font-weight: 900;
+    line-height: 0.8;
+    .first{
+      font-size: 10rem;
+      letter-spacing: -0.1rem;
+    }
+    .last{
+      font-size: 6.7rem;
+      letter-spacing: -0.02rem;
+    }
   }
 }

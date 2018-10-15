@@ -1,0 +1,33 @@
+.nav-body{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  padding:2rem;
+  background-color: $main-blue;
+  &-brand{
+    img{
+      width:50px;
+      height: auto;
+    }
+  }
+
+  &-collapse{
+    .navbar-nav{
+      .nav-item{
+        border-right: 1px solid $main-red;
+        padding: 0 3rem;
+        &:last-child{
+          border: 0;
+
+        }
+
+        .nav-link{
+          color: $main-red;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
