@@ -1,0 +1,74 @@
+.u-pad-section {
+  padding: 4rem; }
+
+*, *::before, *::after,
+a, a:link, a:hover, a:visited p,
+h1, h2, h3, h4, .row, .col {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+h1 {
+  font-weight: 900;
+  line-height: 0.85; }
+
+html {
+  font-size: 10px; }
+
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: #26222d;
+  color: #ff2b58; }
+
+.section-header {
+  font-weight: 900;
+  font-size: 3rem;
+  text-transform: uppercase; }
+
+header {
+  background-size: cover;
+  background-position: top;
+  overflow: hidden;
+  height: 90vh; }
+  header .name {
+    padding-bottom: 1rem;
+    margin-left: -0.5rem;
+    font-weight: 900;
+    line-height: 0.8; }
+    header .name .first h1 {
+      font-size: 10rem;
+      letter-spacing: -0.1rem; }
+    header .name .last h1 {
+      font-size: 6.7rem;
+      letter-spacing: -0.02rem; }
+  header .description {
+    position: relative;
+    display: inline-block;
+    padding: 1rem;
+    font-weight: 300;
+    font-size: 2rem;
+    background-color: #26222d; }
+  header .g-nav {
+    font-size: 3rem; }
+    header .g-nav--link {
+      padding-top: 1rem;
+      display: block; }
+      header .g-nav--link a {
+        text-transform: uppercase;
+        transition: 0.25s;
+        text-decoration: none;
+        color: #ff2b58;
+        border-bottom: 1px solid #ff2b58; }
+        header .g-nav--link a:hover {
+          background-color: #ff2b58;
+          color: #26222d;
+          padding: 1rem; }
+
+.lottieAnim {
+  height: 300px;
+  background-color: #fffcf5;
+  margin-bottom: 10px; }
+
+/*# sourceMappingURL=main.css.map */

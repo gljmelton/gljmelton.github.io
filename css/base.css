@@ -54,19 +54,19 @@ header .description {
   font-size: 2rem;
   background-color: #26222d;
 }
-header .links {
+header .nav {
   font-size: 3rem;
 }
-header .links .link {
+header .nav .link {
   padding-top: 1rem;
 }
-header .links .link a {
+header .nav .link a {
   transition: 0.25s;
   text-decoration: none;
   color: #ff2b58;
   border-bottom: 1px solid #ff2b58;
 }
-header .links .link a:hover {
+header .nav .link a:hover {
   background-color: #ff2b58;
   color: #26222d;
   padding: 1rem;

@@ -1,0 +1,30 @@
+*, *::before, *::after,
+a, a:link, a:hover, a:visited p,
+h1, h2, h3, h4, .row, .col {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1 {
+  font-weight: 900;
+  line-height: 0.85;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  background-color: $color-background;
+  color: $color-red;
+}
+
+.section-header{
+  font-weight: 900;
+  font-size: 3rem;
+  text-transform: uppercase;
+}

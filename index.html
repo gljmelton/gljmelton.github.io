@@ -7,18 +7,22 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <script src="js/lottie.min.js"></script>
+  <script src="js/main.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/base.css" />
+  <!-- <link rel="stylesheet" href="css/base.css" /> -->
+  <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
-  <header>
+  <!-- HEADER NAV -->
+  <header id="header" class="u-pad-section">
     <div class="name">
       <div class="first">
         <h1>GAGE</h1>
@@ -30,12 +34,46 @@
     <div class="description">
       <h2>designer of fine creative goods</h2>
     </div>
-    <div class="links">
-      <div class="link"><a href="https://indiegage.itch.io/" target="_blank">GAMES</a></div>
-      <div class="link"><a href="https://www.flickr.com/photos/gagemelton/" target="_blank">PHOTOGRAPHY</a></div>
-      <div class="link"><a href="https://www.linkedin.com/in/gage-melton/" target="_blank">RESUME</a></div>
+    <div class="g-nav">
+      <div class="g-nav--link"><a href="https://indiegage.itch.io/" target="_blank">GAMES</a></div>
+      <div class="g-nav--link"><a href="https://www.flickr.com/photos/gagemelton/" target="_blank">PHOTOGRAPHY</a></div>
+      <div class="g-nav--link"><a href="#graphics">Motion Graphics</a></div>
+      <div class="g-nav--link"><a href="https://www.linkedin.com/in/gage-melton/" target="_blank">RESUME</a></div>
     </div>
   </header>
+
+  <div class="u-pad-section games">
+    <div id="graphics col-xs-12" class="section-header">Games</div>
+    <div class="row">
+      <div class="game">
+        <iframe frameborder="0" src="https://itch.io/embed/83205" width="552" height="167"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="u-pad-section graphics">
+    <div id="graphics col-xs-12" class="section-header">Motion Graphics</div>
+    <div class="row">
+      <div class="col-xs-12 col-md-3 graphics--items video-confetti">
+        <video loop autoplay style="width:100%"><source src="images/confetti.mp4" type="video/mp4"></video>
+      </div>
+      <div class="col-xs-12 col-md-3 graphics--items">
+        <div class="lottieAnim" id="walletAnim"></div>
+      </div>
+      <div class="col-xs-12 col-md-3 graphics--items">
+        <div class="lottieAnim" id="verifiedAnim"></div>
+      </div>
+      <div class="col-xs-12 col-md-3 graphics--items">
+        <div class="lottieAnim" id="scrollingAnim"></div>
+      </div>
+      <div class="col-xs-12 col-md-3 graphics--items">
+        <div class="lottieAnim" id="shareAnim"></div>
+      </div>
+      <div class="col-xs-12 col-md-3 graphics--items">
+        <div class="lottieAnim" id="graphAnim"></div>
+      </div>
+    </div>
+  </div>
 </body>
 
 
