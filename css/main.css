@@ -1,6 +1,9 @@
 .u-pad-section {
   padding: 4rem; }
 
+.u-margin-bottom {
+  margin-bottom: 50px; }
+
 *, *::before, *::after,
 a, a:link, a:hover, a:visited p,
 h1, h2, h3, h4, .row, .col {
