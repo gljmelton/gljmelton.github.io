@@ -1,10 +1,11 @@
 header {
-  
+
   background-size: cover;
   background-position: top;
   overflow: hidden;
   height:90vh;
-
+  font-family: "Montserrat", sans-serif;
+  
   .name {
     padding-bottom: 1rem;
     margin-left: -0.5rem;
@@ -39,7 +40,10 @@ header {
       padding-top: 1rem;
       display: block;
 
+
       a {
+        box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
         text-transform: uppercase;
 
         transition: 0.25s;

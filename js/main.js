@@ -6,45 +6,15 @@ $(document).ready(function(){
       document.getElementById("header").style.backgroundImage = "linear-gradient(to right bottom, rgba(53, 52, 73, 0.95), rgba(66, 84, 107, 0.15)), url('images/header"+random+".jpg')";
   }
   getRandomImage();
-  console.log(random);
 
-  var svgContainer = document.getElementById('walletAnim');
-  var animItem = lottie.loadAnimation({
-    wrapper: svgContainer,
-    animType: 'svg',
-    loop: true,
-    path: 'anims/Wallet/wallet-data.json'
-  });
+  var gifs = ["anims/wallet.gif","anims/verified.gif","anims/graph.gif","anims/email.gif","anims/clock and compy.gif","anims/clock.gif","anims/brainstorm.gif","anims/actions.gif","anims/scrolling-phone.gif"];
+  var index = 0;
+  setInterval(function cycleGifs(){
 
-  svgContainer = document.getElementById('verifiedAnim');
-  animItem = lottie.loadAnimation({
-    wrapper: svgContainer,
-    animType: 'svg',
-    loop: true,
-    path: 'anims/Verified Check/verified-data.json'
-  });
-
-  svgContainer = document.getElementById('graphAnim');
-  animItem = lottie.loadAnimation({
-    wrapper: svgContainer,
-    animType: 'svg',
-    loop: true,
-    path: 'anims/Graph/graph-data.json'
-  });
-
-  svgContainer = document.getElementById('scrollingAnim');
-  animItem = lottie.loadAnimation({
-    wrapper: svgContainer,
-    animType: 'svg',
-    loop: true,
-    path: 'anims/Scrolling Phone/scrolling-phone-data.json'
-  });
-
-  svgContainer = document.getElementById('shareAnim');
-  animItem = lottie.loadAnimation({
-    wrapper: svgContainer,
-    animType: 'svg',
-    loop: true,
-    path: 'anims/Share Post/share-post-data.json'
-  });
+    document.getElementById("gifCycle").src = gifs[index];
+    index++;
+    if(index>=gifs.length){
+      index=0;
+    }
+  },7000);
 });

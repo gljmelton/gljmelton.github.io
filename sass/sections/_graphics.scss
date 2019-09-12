@@ -1,5 +1,16 @@
-.lottieAnim{
-  height: 300px;
+.graphics{
   background-color: $color-white;
-  margin-bottom: 10px;
+  color: $color-background;
+}
+
+.anim{
+  width: 50%;
+  margin:20px;
+  border-radius: 200px;
+  border: 1px solid $color-background;
+  background-color: white;
+
+  &-box{
+    text-align: center;
+  }
 }

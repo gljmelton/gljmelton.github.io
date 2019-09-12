@@ -1,12 +1,33 @@
+@charset "UTF-8";
 .u-pad-section {
   padding: 4rem; }
 
 .u-margin-bottom {
   margin-bottom: 50px; }
 
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.u-bg-white {
+  background-color: #fffcf5; }
+
+.u-pad-20 {
+  padding: 20px; }
+
 *, *::before, *::after,
 a, a:link, a:hover, a:visited p,
-h1, h2, h3, h4, .row, .col {
+h1, h2, h3, h4, .row, .col, div[class*=”col-”] {
   margin: 0;
   padding: 0;
   box-sizing: inherit; }
@@ -18,14 +39,29 @@ h1 {
 html {
   font-size: 10px; }
 
+p {
+  font-size: 1.5rem; }
+
+.link {
+  transition: 0.25s;
+  text-decoration: none;
+  color: #ff2b58;
+  border-bottom: 1px solid #ff2b58; }
+  .link:hover {
+    text-decoration: none;
+    background-color: #ff2b58;
+    color: #26222d;
+    padding: 1rem; }
+
 body {
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
   background-color: #26222d;
   color: #ff2b58; }
 
 .section-header {
+  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 3rem;
   text-transform: uppercase; }
@@ -34,7 +70,8 @@ header {
   background-size: cover;
   background-position: top;
   overflow: hidden;
-  height: 90vh; }
+  height: 90vh;
+  font-family: "Montserrat", sans-serif; }
   header .name {
     padding-bottom: 1rem;
     margin-left: -0.5rem;
@@ -59,6 +96,8 @@ header {
       padding-top: 1rem;
       display: block; }
       header .g-nav--link a {
+        box-decoration-break: clone;
+        -webkit-box-decoration-break: clone;
         text-transform: uppercase;
         transition: 0.25s;
         text-decoration: none;
@@ -69,9 +108,118 @@ header {
           color: #26222d;
           padding: 1rem; }
 
-.lottieAnim {
-  height: 300px;
+.graphics {
   background-color: #fffcf5;
-  margin-bottom: 10px; }
+  color: #26222d; }
+
+.anim {
+  width: 50%;
+  margin: 20px;
+  border-radius: 200px;
+  border: 1px solid #26222d;
+  background-color: white; }
+  .anim-box {
+    text-align: center; }
+
+.games {
+  color: #26222d;
+  background-color: #fffcf5;
+  background-image: linear-gradient(to right bottom, rgba(225, 225, 225, 0.25), rgba(66, 84, 107, 0.15)), url("/images/game-collage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  overflow: hidden; }
+  .games--body {
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0; }
+  .games_feature {
+    position: relative;
+    padding: 15px;
+    color: #26222d; }
+    .games_feature a {
+      color: #26222d;
+      text-decoration: none;
+      border-bottom: 1px solid #ff2b58;
+      transition: 0.5s; }
+      .games_feature a:hover {
+        border-bottom: 1px solid #26222d; }
+    .games_feature--game {
+      text-align: center; }
+    .games_feature--title {
+      padding: 10px; }
+    .games_feature--offsetbg {
+      transform: translate(40px, 40px);
+      position: absolute;
+      width: 100%;
+      height: 75%;
+      background-color: #ff2b58; }
+
+.forms--container {
+  display: inline-flex;
+  position: relative;
+  width: 15%;
+  height: 30rem; }
+  .forms--container:hover > .forms--container__body:hover {
+    height: 300px;
+    transform: rotateY(0deg);
+    z-index: 100; }
+  .forms--container__body {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    height: 250px;
+    perspective: 2000;
+    transform: perspective(2000px) rotateY(45deg);
+    transition: .5s; }
+
+.resume {
+  width: 100%;
+  margin: 0 auto; }
+  .resume-section {
+    border-left: 1px solid #ff2b58;
+    margin: 10px 0;
+    padding: 10px; }
+    .resume-section--header {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
+      font-weight: 600;
+      text-transform: uppercase; }
+
+@media (min-width: 768px) {
+  .resume {
+    width: 80%;
+    margin: 0 auto; } }
+.job {
+  padding: 10px 0; }
+  .job-title {
+    font-size: 1.5rem; }
+  .job-description {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    padding-left: 10px; }
+  .job-list {
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+    padding-left: 30px; }
+
+.about {
+  width: 100%;
+  margin: 0 auto; }
+  .about--headshot {
+    width: 80%;
+    margin: 3rem;
+    border: 0;
+    border-radius: 1000px; }
+  .about--details {
+    padding: 20px; }
+    .about--details__callout {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600; }
+
+@media (min-width: 768px) {
+  .about {
+    width: 80%;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */

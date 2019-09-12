@@ -1,0 +1,33 @@
+.forms{
+  &--container{
+    display: inline-flex;
+    position: relative;
+    width:15%;
+    height:30rem;
+
+    &:hover{
+      & > .forms--container__body:hover{
+        height: 300px;
+
+        transform: rotateY(0deg);
+
+        z-index: 100;
+      }
+    }
+
+    &__body{
+      position: absolute;
+      top: 0;
+      left:-50%;
+      height: 250px;
+      perspective: 2000;
+      transform: perspective(2000px) rotateY(45deg);
+
+      transition: .5s;
+
+      &:hover{
+
+      }
+    }
+  }
+}
