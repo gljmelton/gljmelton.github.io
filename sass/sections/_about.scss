@@ -1,0 +1,28 @@
+.about{
+  width: 100%;
+  margin: 0 auto;
+  &--headshot{
+    width: 80%;
+    margin: 3rem;
+
+    border: 0;
+    border-radius: 1000px;
+  }
+
+  &--details{
+    padding:20px;
+
+    &__callout{
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .about{
+    width: 80%;
+    margin: 0 auto;
+  }
+}

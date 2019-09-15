@@ -1,0 +1,45 @@
+.resume{
+  width: 100%;
+  margin: 0 auto;
+  &-section{
+    border-left: 1px solid $color-red;
+    margin:10px 0;
+    padding: 10px;
+    &--header{
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
+      font-weight: 600;
+      text-transform:uppercase;
+
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .resume{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.job{
+  padding: 10px 0;
+
+  &-title{
+    font-size: 1.5rem;
+  }
+
+  &-description{
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+
+    padding-left: 10px;
+  }
+
+  &-list{
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+
+    padding-left: 30px;
+  }
+}

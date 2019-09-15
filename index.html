@@ -7,18 +7,23 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c645478df8.js"></script>
+
+  <script src="js/lottie.min.js"></script>
+  <script src="js/main.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/base.css" />
+  <!-- <link rel="stylesheet" href="css/base.css" /> -->
+  <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
-  <header>
+  <!-- HEADER NAV -->
+  <header id="header" class="u-pad-section">
     <div class="name">
       <div class="first">
         <h1>GAGE</h1>
@@ -30,12 +35,300 @@
     <div class="description">
       <h2>designer of fine creative goods</h2>
     </div>
-    <div class="links">
-      <div class="link"><a href="https://indiegage.itch.io/" target="_blank">GAMES</a></div>
-      <div class="link"><a href="https://www.flickr.com/photos/gagemelton/" target="_blank">PHOTOGRAPHY</a></div>
-      <div class="link"><a href="https://www.linkedin.com/in/gage-melton/" target="_blank">RESUME</a></div>
+    <div class="g-nav">
+      <div class="g-nav--link"><a href="#games">GAMES</a></div>
+      <div class="g-nav--link"><a href="#corporateGraphics">Corporate Graphics</a></div>
+      <div class="g-nav--link"><a href="#graphics">Motion Graphics</a></div>
+      <div class="g-nav--link"><a href="#resume">RESUME</a></div>
     </div>
   </header>
+  <div class="u-pad-section about">
+    <div class="section-header">About</div>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="images/headshot.png" class="about--headshot" alt="" />
+      </div>
+      <div class="col-sm-8">
+        <div class="about--details">
+          <p class="about--details__callout">
+            Hi. I'm Gage
+          </p>
+          <p>
+
+            <span class="fas fa-envelope">&nbsp;&nbsp;</span>gage@gagemelton.com
+          </p>
+          <p>
+            I graduated from Bradley University in 2017 with a bachelors degree in interactive media, concentrated on game design. Since then I've take on game design as hobby and leveraged my multi-disciplinary background in all kinds of work.
+            <br /><br />I've done editing, TV production, graphic design, web development, programming and more. Aside from making games in my free time I like I enjoy playing video games and reading comics, with some photography sprinked in for good measure.
+
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-6"></div>
+    </div>
+  </div>
+  <div class="u-pad-section games">
+
+    <div class="section-header">Games</div>
+    <div class="col-md-6 games--body">
+      <div class="u-bg-white u-pad-20">
+        <p>
+          I've worked on games as part of a team and independently. These projects range from interactive fiction, to first-person platformers, all the way to local multiplayer party games.
+        </p>
+        <p>
+          <a class="link" href="https://indiegage.itch.io/" target="_blank">View my games</a>
+        </p>
+      </div>
+      <div class="d-none d-md-inline-flex games_feature row">
+        <div class="games_feature--offsetbg"></div>
+        <div class="d-md-none d-lg-block col-md-6 col-lg-4 games_feature--game">
+          <iframe frameborder="0" src="https://itch.io/embed/113267?linkback=true&amp;border_width=0&amp;bg_color=fffcf5&amp;fg_color=ffffff&amp;link_color=ff2b58&amp;border_color=c8c8c8" width="206" height="165"></iframe>
+          <p class="games_feature--title">
+            <a class="" href="https://indiegage.itch.io/rain-in-the-month-of-january">Rain in the Month of January</a>
+          </p>
+        </div>
+        <div class="col-lg-6 col-xl-4  games_feature--game">
+          <iframe frameborder="0" src="https://itch.io/embed/79220?linkback=true&amp;border_width=0&amp;bg_color=fffcf5&amp;fg_color=ffffff&amp;link_color=ff2945&amp;border_color=414141" width="208" height="167"></iframe>
+          <p class="games_feature--title">
+            <a class="" href="https://indiegage.itch.io/nongon">Nongon</a>
+          </p>
+        </div>
+        <div class="col-lg-6 col-xl-4  games_feature--game">
+          <iframe frameborder="0" src="https://itch.io/embed/302847?border_width=0&amp;bg_color=fffcf5&amp;fg_color=56f2fe&amp;link_color=ff2b58&amp;border_color=515151" width="206" height="165"></iframe>
+          <p class="games_feature--title">
+            <a class="" href="https://symptomatic.itch.io/color-cannons">Color Cannons+</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="u-pad-section corporate-graphics">
+
+    <div class="row">
+      <div class="col-md-6">
+        <div id="corporateGraphics" class="section-header ">Corporate Graphics</div>
+        <p style="width:80%">
+          At Illinois Mutual I was a member of the Marketing, Communications, and Research team. Working primarily on the marketing side, I designed and developed materials for our corporate website, social media, and print. One of my major area's of focus was in agent recruitment, where I created emails and landing pages designed to entice new agents to contract with Illinois Mutual.
+          <br/>
+          <br/>
+          Another major area of my work was print graphic design. Whether I was creating new pieces from scratch or updating existing materials, I had to work within the corporate brand guidelines while creating layouts that were approachable while conveying the naturally complicated minutiae of life insurance.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <div class="forms">
+          <div class="forms--container">
+            <img src="forms/DI Guide.png" class="forms--container__body" alt="">
+          </div>
+          <div class="forms--container">
+            <img src="forms/Job A Job B.png" class="forms--container__body" alt="">
+          </div>
+          <div class="forms--container">
+            <img src="forms/LIAM Planning Guide.png" class="forms--container__body" alt="">
+          </div>
+          <div class="forms--container">
+            <img src="forms/LIAM Resource Guide.png" class="forms--container__body" alt="">
+          </div>
+          <div class="forms--container">
+            <img src="forms/LIAM Slip.png" class="forms--container__body" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="u-pad-section graphics">
+
+    <div class="row">
+      <div class="col-md-6">
+        <div id="graphics" class="section-header">Motion Graphics</div>
+        <p>
+          I've used Adobe After Effects to create animations for web and video. Utilizing After Effects, Illustrator, and Premiere, I am capable of designing in Illustrator and animating in After Effects before integrating a finalized animation into a website or video project.
+        </p>
+        <p>
+          <a class="link" href="https://gljmelton.myportfolio.com/illinois-mutual-term-life-insurance-bundle-videos" target="_blank">See more cool graphics</a>
+        </p>
+      </div>
+      <div class="col-md-6 graphics--items">
+        <div class="anim-box">
+          <img class="anim" src="anims/anim-clip.gif" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="u-pad-section resume">
+    <div id="resume" class="section-header">Resume</div>
+      <!-- Contact -->
+      <div class="resume-section">
+        <div class="resume-section--header">Contact</div>
+        <div>
+          <p>
+            Email: <a class="link" href="mailto:gage@gagemelton.com">gage@gagemelton.com</a>
+          </p>
+        </div>
+      </div>
+      <!-- Education -->
+      <div class="resume-section ">
+        <div class=" resume-section--header">Education</div>
+        <div class="job ">
+          <p>
+            Bradley University, <em>Graduated May 2017, Peoria, IL</em><br/>
+            - Bachelors of Science in Interactive Media<br/>
+            - Concentration in Game Design<br/>
+            - Minor in Computer Science
+          </p>
+        </div>
+      </div>
+      <!-- Jobs -->
+      <div class="resume-section ">
+        <div class=" resume-section--header">Experience</div>
+        <div class="job ">
+          <p class="job-title">
+            Lab Instructor, Bradley University  |  <em>August 2019 - December 2019</em>
+          </p>
+          <p class="job-description">
+            - Lead lessons on how to use software including Photoshop, Illustrator, After Effects, and Unity3D.</br>
+            - Foster a collaborative environment where students are safe and comfortable sharing their work and ideas with peers.</br>
+            - Assist students with software and programming issues.</br>
+            - Critique and grade student assignments in a timely manner.
+          </p>
+        </div>
+        <div class="job ">
+          <p class="job-title">
+            Web and Print Graphic Designer, Illinois Mutual Life Insurance Company  |  <em>May 2018 - Current</em>
+          </p>
+          <p class="job-description">
+            - Edit video and audio using Adobe Premiere, After Effects, and Audition.</br>
+            - Create motion graphic videos for insurance product overviews using Adobe After Effects and Illustrator.</br>
+            - Operate and maintain video production equipment incuding cameras, microphones, lights, and backdrops.</br>
+            - Design print and digital marketing materials including booklets, flyers, powerpoints, websites, landing pages, and emails.</br>
+            - Collaborate with marketing and graphics teams to brainstorm new campaigns, projects, and concepts.
+          </p>
+        </div>
+        <div class="job ">
+          <p class="job-title">
+            Teaching Assistant, Bradley University  |  <em>January 2018 - May 2018</em>
+          </p>
+          <p class="job-description">
+            - Help students learn Unity3D for game production courses.</br>
+            - Troubleshoot problems students encounter with Unity3D or their code.</br>
+            - Teach students concepts pertaining to Unity3D and programming in C#.</br>
+            - Communicate with professors on the status of the class, specifically any
+            issues student teams faced with projects or each other.</br>
+            - Critique design of student projects with professor, providing notes and
+            ideas to help students.
+          </p>
+        </div>
+        <div class="job ">
+          <p class="job-title">
+            Production Assistant, Outdoor Sportsman Group  |  <em>September 2017 - May 2018</em>
+          </p>
+          <p class="job-description">
+            - Log metadata for raw video footage to assist editors in sorting and organizing video content for later use.</br>
+            - Edit and color correcting web videos for <em>The Ford Outfitters</em>, <em>Bowhunter</em>,
+            and <em>North American Whitetail</em>.</br>
+            - Analyze and incorporate feedback in a timely manner.</br>
+            - Communicating with producers to make any necessary changes to videos in a timely fashion.
+          </p>
+        </div>
+      </div>
+      <!-- Skills -->
+      <div class="resume-section ">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="resume-section--header">Technical Skills</div>
+            <div class="row">
+              <ul class="job-list col-6">
+                <li>
+                  Premiere
+                </li>
+                <li>
+                  Photoshop
+                </li>
+                <li>
+                  Illustrator
+                </li>
+                <li>
+                  InDesign
+                </li>
+                <li>
+                  After Effects
+                </li>
+                <li>
+                  Audition
+                </li>
+                <li>
+                  HTML5
+                </li>
+
+              </ul>
+              <ul class="job-list col-6">
+                <li>
+                  CSS
+                </li>
+                <li>
+                  Javascript
+                </li>
+                <li>
+                  Videography
+                </li>
+                <li>
+                  Photography
+                </li>
+                <li>
+                  Blender
+                </li>
+                <li>
+                  Unity3D
+                </li>
+                <li>
+                  C#
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="resume-section--header">Personal Skills</div>
+            <div class="row">
+              <ul class="job-list col-6">
+                <li>
+                  Creative Thinking
+                </li>
+                <li>
+                  Problem Solving
+                </li>
+                <li>
+                  Attention to Detail
+                </li>
+                <li>
+                  Desire to Learn
+                </li>
+                <li>
+                  Communication
+                </li>
+              </ul>
+              <ul class="job-list col-6">
+                <li>
+                  Feedback Analysis
+                </li>
+                <li>
+                  Self Motivated
+                </li>
+                <li>
+                  Fast Learner
+                </li>
+                <li>
+                  Well Organized
+                </li>
+                <li>
+                  Multitasking
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 </body>
 
 

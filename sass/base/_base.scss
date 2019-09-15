@@ -1,0 +1,49 @@
+*, *::before, *::after,
+a, a:link, a:hover, a:visited p,
+h1, h2, h3, h4, .row, .col, div[class*=”col-”] {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1 {
+  font-weight: 900;
+  line-height: 0.85;
+}
+
+html {
+  font-size: 10px;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+.link{
+  transition: 0.25s;
+  text-decoration: none;
+  color: #ff2b58;
+  border-bottom: 1px solid #ff2b58;
+
+  &:hover {
+    text-decoration: none;
+    background-color: #ff2b58;
+    color: #26222d;
+    padding: 1rem;
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  background-color: $color-background;
+  color: $color-red;
+}
+
+.section-header{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
